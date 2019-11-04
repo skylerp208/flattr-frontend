@@ -1,4 +1,5 @@
 import React from 'react';
+import UserCard from '../components/UserCard';
 
 class HomePage extends React.Component {
   state = {
@@ -7,8 +8,8 @@ class HomePage extends React.Component {
 
   render() {
     return (
-      <div>
-        Dating app goes here
+      <div style = {{ position: 'absolute', width: '100%', height: '92%', top: '12%' }}>
+        <UserCard />
       </div>
     )
   }
